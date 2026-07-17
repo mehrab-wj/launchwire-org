@@ -70,12 +70,14 @@
 
 .article-cover {
   margin: 0 0 48px;
+  text-align: center;
 }
 
 .article-cover img {
   width: 100%;
+  max-width: 480px;
   height: auto;
-  display: block;
+  display: inline-block;
   border-radius: var(--radius);
   border: 1px solid var(--line);
 }
