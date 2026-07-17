@@ -61,12 +61,9 @@
 }
 .article-meta span:first-child::before { content: ""; margin-right: 0; }
 
-.article-meta a {
-  color: var(--accent-ink);
-  font-weight: 600;
-  text-decoration: none;
+.pdf-download {
+  margin-top: 20px;
 }
-.article-meta a:hover { text-decoration: underline; }
 
 .article-cover {
   margin: 0 0 48px;
@@ -205,9 +202,10 @@
   text-align: center;
 }
 
-.article-cta .btn {
-  color: #fff;
-  text-decoration: none;
+.article-cta .btn,
+.article-cta .btn:hover {
+  color: #fff !important;
+  text-decoration: none !important;
 }
 
 .article-cta p {
