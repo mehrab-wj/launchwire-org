@@ -61,6 +61,25 @@
 }
 .article-meta span:first-child::before { content: ""; margin-right: 0; }
 
+.article-meta a {
+  color: var(--accent-ink);
+  font-weight: 600;
+  text-decoration: none;
+}
+.article-meta a:hover { text-decoration: underline; }
+
+.article-cover {
+  margin: 0 0 48px;
+}
+
+.article-cover img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+}
+
 /* ---------- Article body ---------- */
 .article-body {
   max-width: 760px;
@@ -182,6 +201,11 @@
   background: var(--bg-alt);
   border: 1px solid var(--line);
   text-align: center;
+}
+
+.article-cta .btn {
+  color: #fff;
+  text-decoration: none;
 }
 
 .article-cta p {
